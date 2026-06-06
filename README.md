@@ -1,10 +1,7 @@
-## 🧰 Source of The Project    
-
-
 ---
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/8086b092-fe7c-4e07-9ffd-daee2dbb372a" alt="banner" width="30%">
+  <img src="https://github.com/user-attachments/assets/08946702-e307-47fc-ae90-4f544cabf749" alt="banner" width="30%">
 </p>
 
 <h1 align="center">Regression Analysis</h1>
