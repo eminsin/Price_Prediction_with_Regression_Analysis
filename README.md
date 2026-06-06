@@ -4,32 +4,24 @@
   <img width="600" height="500" alt="image_summary of the project" src="https://github.com/user-attachments/assets/c1ee2e36-5001-4e0d-b871-f6be9350877b" />
 </p>
 
-<h1 align="center">Regression Analysis</h1>
+<h1 align="center">Regression Analysis -- Theory-to-Implementation Study</h1>
 
-
-
----
-
-***Table of Contents***
 
 
 ---
 
 ## 🎯 Project Overview
-+ Developed and validated multiple linear regression models for real estate price prediction using Python (pandas, statsmodels), incorporating feature engineering, dummy variable encoding, and heteroscedasticity correction with weighted least squares.
-+ Conducted comprehensive regression diagnostics and influence analysis, including leverage (hat values), Cook’s distance, Breusch-Pagan test for heteroscedasticity, and robust standard error estimation (White’s correction), improving model reliability and interpretability.
-+ Implemented prediction interval estimation for new observations using both standard and weighted models, demonstrating expertise in model evaluation, statistical inference, and advanced econometric techniques relevant to pricing, forecasting, and risk analysis.
+
+This project was designed as an in-depth study of **_regression analysis_**, with a primary focus on understanding and practicing the underlying statistical and mathematical theory rather than treating regression as a black-box modeling technique.   
+The objective was to manually implement core regression concepts and compare the results with established R and Python libraries to gain a detailed understanding of estimation, inference, and model evaluation.
 
 ---
 
-## 📘 What You’ll Learn
+## 📘 What I Learned
 
-- How to simulate binary outcome data (e.g. conversion)
-- Run hypothesis tests: manual Z-test and `scipy` t-test
-- Calculate and visualize confidence intervals
-- Understand p-values, alpha levels, and Type I/II errors
-- Simulate and explore the False Positive Risk (FPR)
-- Visualize “what if” scenarios: low power, small effects, bad design
++ Developed and validated **_multiple linear regression_** models for real estate price prediction incorporating **_feature engineering_**, **_dummy variable encoding_**, and **_heteroscedasticity correction_** with **_weighted least squares_**.
++ Conducted comprehensive **_regression diagnostics_** and **_influence analysis_**, including **_leverage (hat values)_**, **_Cook’s distance_**, **_Breusch-Pagan test_** for heteroscedasticity, and robust standard error estimation (**_White’s correction_**), improving model reliability and interpretability.
++ Implemented **_prediction interval estimation_** for new observations using both standard and weighted models, demonstrating expertise in **_model evaluation_**, **_statistical inference_**, and advanced econometric techniques relevant to **_pricing, forecasting, and risk analysis_**.
 
 ---
 
@@ -51,25 +43,7 @@ AB-Testing_Causal-Inference-Starter/
 
 ---
 
-## 🚀 Getting Started
 
-### 1. Clone the repo
-```bash
-git clone https://github.com/your-username/AB-Testing_Causal-Inference-Starter.git
-cd AB-Testing_Causal-Inference-Starter
-```
-
-### 2. Install requirements
-```bash
-pip install numpy pandas matplotlib scipy jupyter
-```
-
-### 3. Launch the notebook
-```bash
-jupyter notebook notebooks/01_ab_test_simulation.ipynb
-```
-
----
 
 ## 🧠 Notebook Topics
 
@@ -102,42 +76,23 @@ jupyter notebook notebooks/01_ab_test_simulation.ipynb
 
 ---
 
-## 🧑‍🏫 For Students
-Each notebook section includes:
-- 👩‍🏫 **Teaching comments** and annotated code
-- 📌 Real-world context from online experimentation
-- 💡 Insights from industry practice (Expedia, Microsoft, Airbnb)
 
----
-
-## 📸 Sample Visuals
-See the `/images` folder for example outputs:
-- p-value distributions
-- confidence interval charts
-- bootstrap effect distributions
-
----
 
 ## 🛠 Built With
-- Python 3.8+
-- `numpy`, `pandas`, `scipy`, `matplotlib`
-- Jupyter Notebook
+- Python 3.12 and R 
+- `numpy`, `pandas`, `scipy`, `statsmodels`, `scikitlearn`, `seaborn`, `matplotlib` 
+- Jupyter Notebook, RStudio
 
 ---
 
-## 📄 License
-This project is licensed under the MIT License - see the LICENSE file for details.
 
----
 
 ## 🌱 Inspired By
-- *Trustworthy Online Controlled Experiments* by Ron Kohavi et al.
-- "False Positives in A/B Tests" (KDD '24)
-- [Andrew Gelman & John Carlin on sign and magnitude errors](https://doi.org/10.1177/1745691614551642)
+- *Regression Models, Methods and Applications* by Ludwig Fahrmeir et al.
 
 ---
 
 ## 🤝 Connect
-If you’re a recruiter, data science student, or just excited about experimentation, feel free to reach out or star this repo!
+Feel free to reach out or star this repo!
 
-Let’s learn causal inference—one experiment at a time. 🌱
+Let’s learn together. 🌱
