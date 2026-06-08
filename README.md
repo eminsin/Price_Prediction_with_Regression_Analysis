@@ -30,15 +30,29 @@ The objective was to manually implement core regression concepts and compare the
 ```
 AB-Testing_Causal-Inference-Starter/
 ├── notebooks/
-│   └── 01_ab_test_simulation.ipynb       # Main walkthrough notebook
+│   └── Reg_An_with.ipynb                                                 # Main walkthrough notebooks 
+|   └── Reg_An_with.R 
 ├── data/
-│   └── synthetic_ab_test.csv            # Simulated experiment dataset
+│   └── biele_WM_new.csv                                                  # Real-world dataset of Bielefeld flat rents
 ├── scripts/
-│   └── abtest_utils.py                  # Reusable functions
+│   └── 1- Data Preprocessing                                             # Step-by-step analysis for both R and Python
+│   └── 2-
+│   └── 3-
+│   └── 4-
+│   └── 5-
+│   └── 6-
+│   └── 7-
 ├── images/
-│   └── pvalue_distribution.png          # Visual outputs for README/docs
-├── README.md                            # Project overview (you are here)
-└── LICENSE                              # MIT License
+│   └── Multicollinearity__VIF.png                                        # Visual outputs from the project
+│   └── heteroscedasticerrors__residuals_vs_fitted_values.png
+│   └── homoscedasticity__residuals_vs_fitted_values.png
+│   └── linearity__residuals_vs_area.png
+│   └── residuals_vs_age.png
+│   └── residuals_vs_area.png
+│   └── residuals_vs_rooms.png
+│   └── unweighted_and_weigtehed_model_residuals.png
+├── README.md                                                             # Project overview (you are here)
+└── LICENSE                                                               # MIT License
 ```
 
 ---
