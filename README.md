@@ -61,32 +61,17 @@ Price_Prediction_with_Regression_Analysis/
 
 ## 🧠 Notebook Topics
 
-### 📊 1. Simulate Control and Treatment
-- Conversion rates (e.g. 10% vs 11%)
-- Generate binary data for 10,000 users each group
+### 📊 1. 
 
-### ✍️ 2. Manual Hypothesis Testing
-- Pooled standard error
-- Z-statistic
-- Manual p-value calculation
+### ✍️ 2. 
 
-### 🧪 3. Use `scipy` to Validate
-- `scipy.stats.ttest_ind` or z-proportion test
-- Compare with manual results
+### 🧪 3. 
 
-### 📉 4. Visualize Confidence Intervals
-- Bar plots with error bars
-- Bootstrap sampling distributions
+### 📉 4. 
 
-### ❗ 5. Simulate False Positives
-- Run 1000 null experiments
-- Show that ~5% are “significant” by chance
-- Explore what happens when power is low
+### ❗ 5. 
 
-### 🧮 6. What-If Scenarios
-- Low sample size vs. high MDE
-- Winner’s curse demonstration
-- Sign vs magnitude errors
+### 🧮 6. 
 
 ---
 
