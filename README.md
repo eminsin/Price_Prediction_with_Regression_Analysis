@@ -35,13 +35,25 @@ Price_Prediction_with_Regression_Analysis/
 ├── data/
 │   └── biele_WM_new.csv                                               # Real-world dataset
 ├── scripts/
-│   └── 1- Data Preprocessing                                          # Step-by-step analysis
-│   └── 2-
-│   └── 3-
-│   └── 4-
-│   └── 5-
-│   └── 6-
-│   └── 7-
+│   └── 1- Data_Preprocessing                                          # Step-by-step analysis
+│   └── 2- Model_with_statsmodels
+│   └── 3- Model_by_Hand
+│   └── 4- Hypothesis_Testing
+│   └── 5- Model_Selection
+│   └── 6- Problem_Analysis
+│   └── 7- Model_Selection
+│   └── 8- Model_Diagnosis
+│   └── 9- Linearity
+│   └── 10- Homoscedasticity
+│   └── 11- Variance_Inflation_Factor
+│   └── 12- Outlier_Analysis
+│   └── 13- Leverage
+│   └── 14- Cook's_Distance
+│   └── 15- Heteroscedastic_Errors
+│   └── 16- Breusch-Pagan_Test
+│   └── 17- Two-Stage_Least_Squares
+│   └── 18- White-Estimators
+│   └── 19- Final_Model
 ├── images/
 │   └── Multicollinearity__VIF.png                                     # Visual outputs from the project
 │   └── heteroscedasticerrors__residuals_vs_fitted_values.png
