@@ -28,7 +28,7 @@ The objective was to manually implement core regression concepts and compare the
 ## 📂 Folder Structure
 
 ```
-AB-Testing_Causal-Inference-Starter/
+Price_Prediction_with_Regression_Analysis/
 ├── notebooks/
 │   └── Reg_An_with.ipynb                                              # Main walkthrough notebooks 
 |   └── Reg_An_with.R 
