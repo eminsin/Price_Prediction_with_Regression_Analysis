@@ -33,9 +33,9 @@ AB-Testing_Causal-Inference-Starter/
 │   └── Reg_An_with.ipynb                                              # Main walkthrough notebooks 
 |   └── Reg_An_with.R 
 ├── data/
-│   └── biele_WM_new.csv                                               # Real-world dataset of Bielefeld flat rents
+│   └── biele_WM_new.csv                                               # Real-world dataset
 ├── scripts/
-│   └── 1- Data Preprocessing                                          # Step-by-step analysis for both R and Python
+│   └── 1- Data Preprocessing                                          # Step-by-step analysis
 │   └── 2-
 │   └── 3-
 │   └── 4-
