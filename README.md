@@ -4,7 +4,7 @@
   <img width="600" height="500" alt="image_summary of the project" src="https://github.com/user-attachments/assets/c1ee2e36-5001-4e0d-b871-f6be9350877b" />
 </p>
 
-<h1 align="center">Regression Analysis -- Theory-to-Implementation Study</h1>
+<h1 align="center">Regression Analysis Theory-to-Implementation Study</h1>
 
 
 
