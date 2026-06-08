@@ -17,7 +17,7 @@ The objective was to manually implement core regression concepts and compare the
 
 ---
 
-## 📘 What I Did
+## 🔬 Laboratory
 
 + Developed and validated **_multiple linear regression_** models for real estate price prediction incorporating **_feature engineering_**, **_dummy variable encoding_**, and **_heteroscedasticity correction_** with **_weighted least squares_**.
 + Conducted comprehensive **_regression diagnostics_** and **_influence analysis_**, including **_leverage (hat values)_**, **_Cook’s distance_**, **_Breusch-Pagan test_** for heteroscedasticity, and robust standard error estimation (**_White’s correction_**), improving model reliability and interpretability.
@@ -73,24 +73,50 @@ Price_Prediction_with_Regression_Analysis/
 
 ## 🧠 Notebook Topics
 
-### 📊 1. 
+### 🧮 1. 
 
-### ✍️ 2. 
+### 🧮 2. 
 
-### 🧪 3. 
+### 🧮 3. 
 
-### 📉 4. 
+### 🧮 4. 
 
-### ❗ 5. 
+### 🧮 5. 
 
-### 🧮 6. 
+### ❗ 6. 
+
+### 🧮 7.
+
+### 🧮 8.
+
+### 🧮 9.
+
+### 🧮 10.
+
+### 🧮 11.
+
+### 🧮 12.
+
+### 🧮 13.
+
+### 🧮 14.
+
+### 🧮 15.
+
+### 🧮 16.
+
+### 🧮 17.
+
+### 🧮 18.
+
+### 🧮 19.
 
 ---
 
 
 
 ## 🛠 Built With
-- Python 3.12 and R 
+- Python 3.12 and R 4.4.0
 - `numpy`, `pandas`, `scipy`, `statsmodels`, `scikitlearn`, `seaborn`, `matplotlib` 
 - Jupyter Notebook, RStudio
 
