@@ -17,7 +17,7 @@ The objective was to manually implement core regression concepts and compare the
 
 ---
 
-## 📘 What I Learned
+## 📘 What I Did
 
 + Developed and validated **_multiple linear regression_** models for real estate price prediction incorporating **_feature engineering_**, **_dummy variable encoding_**, and **_heteroscedasticity correction_** with **_weighted least squares_**.
 + Conducted comprehensive **_regression diagnostics_** and **_influence analysis_**, including **_leverage (hat values)_**, **_Cook’s distance_**, **_Breusch-Pagan test_** for heteroscedasticity, and robust standard error estimation (**_White’s correction_**), improving model reliability and interpretability.
@@ -30,12 +30,12 @@ The objective was to manually implement core regression concepts and compare the
 ```
 AB-Testing_Causal-Inference-Starter/
 ├── notebooks/
-│   └── Reg_An_with.ipynb                                                 # Main walkthrough notebooks 
+│   └── Reg_An_with.ipynb                                              # Main walkthrough notebooks 
 |   └── Reg_An_with.R 
 ├── data/
-│   └── biele_WM_new.csv                                                  # Real-world dataset of Bielefeld flat rents
+│   └── biele_WM_new.csv                                               # Real-world dataset of Bielefeld flat rents
 ├── scripts/
-│   └── 1- Data Preprocessing                                             # Step-by-step analysis for both R and Python
+│   └── 1- Data Preprocessing                                          # Step-by-step analysis for both R and Python
 │   └── 2-
 │   └── 3-
 │   └── 4-
@@ -43,7 +43,7 @@ AB-Testing_Causal-Inference-Starter/
 │   └── 6-
 │   └── 7-
 ├── images/
-│   └── Multicollinearity__VIF.png                                        # Visual outputs from the project
+│   └── Multicollinearity__VIF.png                                     # Visual outputs from the project
 │   └── heteroscedasticerrors__residuals_vs_fitted_values.png
 │   └── homoscedasticity__residuals_vs_fitted_values.png
 │   └── linearity__residuals_vs_area.png
@@ -51,8 +51,8 @@ AB-Testing_Causal-Inference-Starter/
 │   └── residuals_vs_area.png
 │   └── residuals_vs_rooms.png
 │   └── unweighted_and_weigtehed_model_residuals.png
-├── README.md                                                             # Project overview (you are here)
-└── LICENSE                                                               # MIT License
+├── README.md                                                          # Project overview (you are here)
+└── LICENSE                                                            # MIT License
 ```
 
 ---
