@@ -1,8 +1,8 @@
 # Step 3: Model by Hand
 
-import
-import
-import
+import pandas as pd
+import numpy as np
+import statsmodels.api as sm
 
 # Extract values of dependent and independent variables
 X_val = data[independent_vars].values
