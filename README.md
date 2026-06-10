@@ -36,24 +36,23 @@ Price_Prediction_with_Regression_Analysis/
 │   └── biele_WM_new.csv                                               # Real-world dataset
 ├── scripts/
 │   └── 1- Data_Preprocessing                                          # Step-by-step analysis
-│   └── 2- Model_with_statsmodels
-│   └── 3- Model_by_Hand
-│   └── 4- Hypothesis_Testing
-│   └── 5- Model_Selection
-│   └── 6- Problem_Analysis
-│   └── 7- Model_Selection
-│   └── 8- Model_Diagnosis
-│   └── 9- Linearity
-│   └── 10- Homoscedasticity
-│   └── 11- Variance_Inflation_Factor
-│   └── 12- Outlier_Analysis
-│   └── 13- Leverage
-│   └── 14- Cook's_Distance
-│   └── 15- Heteroscedastic_Errors
-│   └── 16- Breusch-Pagan_Test
-│   └── 17- Two-Stage_Least_Squares
-│   └── 18- White-Estimators
-│   └── 19- Final_Model
+│   └── 2- OLS_Estimation
+│   └── 3- Hypothesis_Testing
+│   └── 4- Model_Selection
+│   └── 5- Problem_Analysis
+│   └── 6- (back to) Model_Selection
+│   └── 7- Model_Diagnosis
+│   └── 8- Linearity
+│   └── 9- Homoscedasticity
+│   └── 10- Variance_Inflation_Factor
+│   └── 11- Outlier_Analysis
+│   └── 12- Leverage
+│   └── 13- Cook's_Distance
+│   └── 14- Heteroscedastic_Errors
+│   └── 15- Breusch-Pagan_Test
+│   └── 16- Two-Stage_Least_Squares
+│   └── 17- White-Estimators
+│   └── 18- Final_Model
 ├── images/
 │   └── Multicollinearity__VIF.png                                     # Visual outputs from the project
 │   └── heteroscedasticerrors__residuals_vs_fitted_values.png
@@ -73,43 +72,95 @@ Price_Prediction_with_Regression_Analysis/
 
 ## 🧠 Notebook Topics
 
-### 🧮 1. 
+### 🧮 1. Data Preprocessing
++ Cleaned and validated the dataset for missing values.
++ Transformed variables and prepared features for regression analysis.
 
-### 🧮 2. 
+### 🧮 2. OLS Estimation
++ Implemented OLS estimation and calculated regression coefficients manually.
++ Built an OLS regression model and interpreted coefficients, significance tests, and goodness-of-fit metrics.
++ Validated manual results against built-in statistical outputs.
 
-### 🧮 3. 
+### 🧮 3. Hypothesis Testing
++ Tested statistical significance of regression coefficients.
++ Conducted t-tests and evaluated p-values.
++ Assessed evidence for predictor effects on the response variable (F-Test).
 
-### 🧮 4. 
+### 🧮 4. Model Selection
++ Compared alternative model specifications.
++ Evaluated predictor relevance and model performance.
++ Selected variables based on statistical and practical significance.
 
-### 🧮 5. 
+### ❗ 5. Problem Analysis
++ Investigated potential issues affecting model validity.
++ Assessed assumptions and data characteristics.
++ Identified areas requiring further diagnostic analysis.
 
-### ❗ 6. 
+### 🧮 6. (back to) Model Selection
++ Refined the model by removing or retaining predictors.
++ Compared candidate models using performance metrics.
++ Improved model interpretability and predictive quality.
 
-### 🧮 7.
+### 🧮 7. Model Diagnosis
++ Evaluated overall model assumptions and fit.
++ Analyzed residual behavior and model adequacy.
++ Identified sources of bias or misspecification.
 
-### 🧮 8.
+### 🧮 8. Linearity
++ Verified the linear relationship between predictors and response.
++ Examined residual and fitted value plots.
++ Assessed whether linear regression assumptions were satisfied.
 
-### 🧮 9.
+### 🧮 9. Homoscedasticity
++ Checked for constant variance of residuals.
++ Evaluated residual patterns across fitted values.
++ Assessed suitability of standard OLS inference.
 
-### 🧮 10.
+### 🧮 10. Variance Inflation Factor
++ Measured multicollinearity among predictors.
++ Calculated VIF scores for each explanatory variable.
++ Identified variables causing instability in coefficient estimates.
 
-### 🧮 11.
+### 🧮 11. Outlier Analysis
++ Detected observations with unusual residual behavior.
++ Evaluated the impact of extreme data points.
++ Determined whether outliers should be investigated further.
 
-### 🧮 12.
+### 🧮 12. Leverage
++ Identified observations with extreme predictor values.
++ Assessed their potential influence on model estimates.
++ Examined leverage statistics and influence measures.
 
-### 🧮 13.
+### 🧮 13. Cook's Distance
++ Measured the influence of individual observations.
++ Identified points that substantially affected regression results.
++ Evaluated robustness of model estimates.
 
-### 🧮 14.
+### 🧮 14. Heteroscedastic Errors
++ Investigated non-constant error variance.
++ Analyzed residual dispersion patterns.
++ Assessed implications for statistical inference.
 
-### 🧮 15.
+### 🧮 15. Breusch-Pagan Test
++ Performed a formal test for heteroscedasticity.
++ Evaluated whether residual variance depended on predictors.
++ Determined the validity of OLS standard errors.
 
-### 🧮 16.
+### 🧮 16. Two-Stage Least Squares
++ Addressed potential endogeneity issues.
++ Implemented instrumental variable regression.
++ Estimated consistent coefficients under endogenous predictors.
 
-### 🧮 17.
+### 🧮 17. White-Estimators
++ Computed heteroscedasticity-robust standard errors.
++ Improved inference when variance assumptions were violated.
++ Compared robust and conventional statistical results.
 
-### 🧮 18.
+### 🧮 18. Final Model
++ Constructed the final validated regression model.
++ Incorporated diagnostic findings and model improvements.
++ Presented the final estimates, inference, and conclusions.
 
-### 🧮 19.
 
 ---
 
